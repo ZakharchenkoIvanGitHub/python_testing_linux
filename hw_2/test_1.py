@@ -52,7 +52,7 @@ def test_7():
 
 def test_8():
     # test8 сравнение хешей
-    hash_file = getout(getout(f"cd {folder_tst}; crc32 test_file.txt").upper())
+    hash_file = getout(f"cd {folder_tst}; crc32 test_file.txt").upper()
     res1 = checkout(f"cd {folder_tst}; 7z h test_file.txt", hash_file)
     print(res1)
     assert res1, "test 8 FAIL"
