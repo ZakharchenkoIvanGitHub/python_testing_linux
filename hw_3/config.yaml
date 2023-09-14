@@ -1,0 +1,9 @@
+folder_tst: /home/ivan/tst
+folder_out: /home/ivan/out
+folder_ext: /home/ivan/folder1
+sub_folder: sub_folder
+count: 3
+bs: 1M
+stat_file: /home/ivan/stat.txt
+key_t: -tzip
+output_file: output.zip
