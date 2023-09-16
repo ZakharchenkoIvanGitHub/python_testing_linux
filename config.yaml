@@ -1,0 +1,14 @@
+folder_tst: /home/user99/tst
+folder_out: /home/user99/out
+folder_ext: /home/user99/folder1
+sub_folder: sub_folder
+count: 3
+bs: 1M
+stat_file: /home/user99/stat.txt
+key_t: -tzip
+output_file: output.zip
+host: 0.0.0.0
+user: user99
+password: '123'
+local_path: /home/ivan/test/p7zip.deb
+remote_path: /home/user99/p7zip.deb
